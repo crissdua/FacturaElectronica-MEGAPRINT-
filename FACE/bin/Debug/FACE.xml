@@ -1,0 +1,4181 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FACE
+</name>
+</assembly>
+<members>
+<member name="T:FACE.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:FACE.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:FACE.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:FACE.InfileWS.ingface">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.#ctor">
+<remarks/>
+</member>
+<member name="E:FACE.InfileWS.ingface.helloCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.InfileWS.ingface.registrarDteCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.InfileWS.ingface.anulacionDteCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.InfileWS.ingface.cierreCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.InfileWS.ingface.validacionDteCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.InfileWS.ingface.cargarDteCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.InfileWS.ingface.registrarDteSapCompleted">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.hello(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.helloAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.helloAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.registrarDte(FACE.InfileWS.requestDte)">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.registrarDteAsync(FACE.InfileWS.requestDte)">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.registrarDteAsync(FACE.InfileWS.requestDte,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.anulacionDte(FACE.InfileWS.requestAnulacionDte)">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.anulacionDteAsync(FACE.InfileWS.requestAnulacionDte)">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.anulacionDteAsync(FACE.InfileWS.requestAnulacionDte,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.cierre(System.String,System.String,System.String,System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.cierreAsync(System.String,System.String,System.String,System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.cierreAsync(System.String,System.String,System.String,System.Int32,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.validacionDte(FACE.InfileWS.requestValidacion)">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.validacionDteAsync(FACE.InfileWS.requestValidacion)">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.validacionDteAsync(FACE.InfileWS.requestValidacion,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.cargarDte(FACE.InfileWS.requestDte,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.cargarDteAsync(FACE.InfileWS.requestDte,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.cargarDteAsync(FACE.InfileWS.requestDte,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.registrarDteSap(FACE.InfileWS.requestDte)">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.registrarDteSapAsync(FACE.InfileWS.requestDte)">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.registrarDteSapAsync(FACE.InfileWS.requestDte,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.InfileWS.ingface.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.requestDte">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.requestDte.clave">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.requestDte.dte">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.requestDte.usuario">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.requestDte.validador">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.dte">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.cae">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.codigoEstablecimiento">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.codigoMoneda">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.correoComprador">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.departamentoComprador">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.departamentoVendedor">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.descripcionOtroImpuesto">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.detalleDte">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.detalleImpuestosIva">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.detalleImpuestosIvaSpecified">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.direccionComercialComprador">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.direccionComercialVendedor">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.estadoDocumento">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.fechaAnulacion">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.fechaAnulacionSpecified">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.fechaDocumento">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.fechaDocumentoSpecified">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.fechaResolucion">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.fechaResolucionSpecified">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.idDispositivo">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.importeBruto">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.importeBrutoSpecified">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.importeDescuento">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.importeDescuentoSpecified">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.importeNetoGravado">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.importeNetoGravadoSpecified">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.importeOtrosImpuestos">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.importeOtrosImpuestosSpecified">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.importeTotalExento">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.importeTotalExentoSpecified">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.montoTotalOperacion">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.municipioComprador">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.municipioVendedor">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.nitComprador">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.nitGFACE">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.nitVendedor">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.nombreComercialComprador">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.nombreComercialRazonSocialVendedor">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.nombreCompletoVendedor">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.numeroDocumento">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.numeroDte">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.numeroResolucion">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.observaciones">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.personalizado_01">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.personalizado_02">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.personalizado_03">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.personalizado_04">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.personalizado_05">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.personalizado_06">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.personalizado_07">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.personalizado_08">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.personalizado_09">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.personalizado_10">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.personalizado_11">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.personalizado_12">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.personalizado_13">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.personalizado_14">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.personalizado_15">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.personalizado_16">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.personalizado_17">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.personalizado_18">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.personalizado_19">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.personalizado_20">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.rangoFinalAutorizado">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.rangoInicialAutorizado">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.regimen2989">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.regimenISR">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.serieAutorizada">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.serieDocumento">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.telefonoComprador">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.tipoCambio">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.tipoCambioSpecified">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.dte.tipoDocumento">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.detalleDte">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.cantidad">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.cantidadSpecified">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.codigoProducto">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.descripcionProducto">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.detalleImpuestosIva">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.detalleImpuestosIvaSpecified">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.importeExento">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.importeExentoSpecified">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.importeNetoGravado">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.importeNetoGravadoSpecified">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.importeOtrosImpuestos">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.importeOtrosImpuestosSpecified">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.importeTotalOperacion">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.importeTotalOperacionSpecified">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.montoBruto">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.montoBrutoSpecified">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.montoDescuento">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.montoDescuentoSpecified">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.personalizado_01">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.personalizado_02">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.personalizado_03">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.personalizado_04">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.personalizado_05">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.personalizado_06">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.precioUnitario">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.precioUnitarioSpecified">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.tipoProducto">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.detalleDte.unidadMedida">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.requestValidacion">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.requestValidacion.clave">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.requestValidacion.codigoEstablecimiento">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.requestValidacion.nitComprador">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.requestValidacion.nitVendedor">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.requestValidacion.numeroDte">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.requestValidacion.usuario">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.requestAnulacionDte">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.requestAnulacionDte.clave">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.requestAnulacionDte.codigoEstablecimiento">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.requestAnulacionDte.concepto">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.requestAnulacionDte.fechaAnulacion">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.requestAnulacionDte.fechaAnulacionSpecified">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.requestAnulacionDte.numeroDte">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.requestAnulacionDte.tipoDocumento">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.requestAnulacionDte.usuario">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.resultado">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.resultado.anotaciones">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.resultado.descripcion">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.resultado.valido">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.responseDteSap">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.responseDteSap.cae">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.responseDteSap.estado">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.responseDteSap.numeroDocumento">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.responseDteSap.numeroDte">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.responseDteSap.rangoFinalAutorizado">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.responseDteSap.rangoInicialAutorizado">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.responseDteSap.regimen">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.responseValidacion">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.responseValidacion.dte">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.responseAnulacionDte">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.responseAnulacionDte.dte">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.responseDte">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.responseDte.cae">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.responseDte.estado">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.responseDte.numeroDocumento">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.responseDte.numeroDte">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.responseDte.rangoFinalAutorizado">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.responseDte.rangoInicialAutorizado">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.responseDte.regimen">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.responseCierre">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.responseCierre.checkSum">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.responseCierre.codigoCae">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.responseCierre.codigoCrfm">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.helloCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.helloCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.helloCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.registrarDteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.registrarDteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.registrarDteCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.anulacionDteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.anulacionDteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.anulacionDteCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.cierreCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.cierreCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.cierreCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.validacionDteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.validacionDteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.validacionDteCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.cargarDteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.cargarDteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.cargarDteCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.registrarDteSapCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.InfileWS.registrarDteSapCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.InfileWS.registrarDteSapCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSFace.FactWSFront">
+<remarks/>
+</member>
+<member name="M:FACE.WSFace.FactWSFront.#ctor">
+<remarks/>
+</member>
+<member name="E:FACE.WSFace.FactWSFront.RequestTransactionCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSFace.FactWSFront.SSLTransactionCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSFace.FactWSFront.SecureTransactionCompleted">
+<remarks/>
+</member>
+<member name="M:FACE.WSFace.FactWSFront.RequestTransaction(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSFace.FactWSFront.RequestTransactionAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSFace.FactWSFront.RequestTransactionAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSFace.FactWSFront.SSLTransaction(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSFace.FactWSFront.SSLTransactionAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSFace.FactWSFront.SSLTransactionAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSFace.FactWSFront.SecureTransaction(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSFace.FactWSFront.SecureTransactionAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSFace.FactWSFront.SecureTransactionAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSFace.FactWSFront.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:FACE.WSFace.TransactionTag">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.TransactionTag.Request">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.TransactionTag.Response">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.TransactionTag.ResponseData">
+<remarks/>
+</member>
+<member name="T:FACE.WSFace.FactRequest">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactRequest.Requestor">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactRequest.RequestorName">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactRequest.RequestorActive">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactRequest.Transaction">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactRequest.Country">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactRequest.Entity">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactRequest.User">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactRequest.UserName">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactRequest.Id">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactRequest.TimeStamp">
+<remarks/>
+</member>
+<member name="T:FACE.WSFace.Transactions">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.BASE">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.NO_TRANSACTION">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.CONVERT_NATIVE_XML">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.GET_MTE_BATCH">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.PROCESS_BATCH">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.SYSTEM_REQUEST">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.RECEIVE_BATCH">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.ENROLL_CERT">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.GET_XML">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.GET_HTML">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.GET_XML_AND_HTML">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.CANCEL_XML">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.MARK_XML_AS_PAID">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.MARK_XML_AS_UNPAID">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.SEARCH_BASIC">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.GET_MONTHLY_REPORT">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.GET_MONTHLY_REPORT_FOR_PROVIDER">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.GET_FOLIOS_BY_RFC">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.DOES_ASSIGNMENT_EXIST">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.CANCEL_XML_BY_INTERNAL_ID">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.ACTIVATE_ASSIGNMENT">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.COUNT_ACTIVE_ASSIGNMENTS">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.GET_DOCUMENT">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.AUTHENTICATE_USER">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.GET_ACCOUNT">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.DISTRIBUTE">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.QUEUE_FOR_DISTRIBUTION">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.GET_EFFECTIVE_RIGHTS">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.EXEC_STORED_PROC">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.GET_USER_INFO">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.RECEIVE">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.GET_PREVIEW">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.RETRIEVE_DOCUMENT">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.MARK_DOCUMENT_AS_PAID">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.MARK_DOCUMENT_AS_NOT_PAID">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.CANCEL_DOCUMENT">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.MARK_DOCUMENT_AS_DELETED">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.MARK_DOCUMENT_AS_NOT_DELETED">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.GET_ADDENDA_RECEIVERS">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.REQUEST_PASSWORD_CHANGE">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.CHANGE_DOCUMENT_SUCURSAL">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.CREATE_ACCOUNT_AS_OWNER">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.CREATE_PASSWORD">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.PASSWORD_FORGOT">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.CREATE_USER">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.INCREMENT_BUNDLE_SIZE">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.TIMBRAR">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.LOOKUP_ISSUED_INTERNAL_ID">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.VALIDATE_CERT">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.BATCH_SERIAL_OPERATIONS">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.PROCESS_LCO">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.ENROLL_THIRD_PARTY_CERT">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.CANCEL_CFDI">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.UPDATE_ACCOUNT_DATA">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.ASSIGN_ACCOUNT_REQUESTOR">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.UPDATE_USER_DATA">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.UPDATE_ADMIN_USER_DATA">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.CREATE_ADMIN_USER">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.UPSERT_GRAPHIC_REPRESENTATION">
+<remarks/>
+</member>
+<member name="F:FACE.WSFace.Transactions.LOOKUP_ISSUED_BATCH_AND_SERIAL">
+<remarks/>
+</member>
+<member name="T:FACE.WSFace.FactResponseData">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactResponseData.ResponseData1">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactResponseData.ResponseData2">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactResponseData.ResponseData3">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactResponseData.ResponseDataSet">
+<remarks/>
+</member>
+<member name="T:FACE.WSFace.BatchID">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.BatchID.BatchId">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.BatchID.BatchTimeStamp">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.BatchID.BatchRequestorCountry">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.BatchID.BatchRequestorEntity">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.BatchID.BatchPosition">
+<remarks/>
+</member>
+<member name="T:FACE.WSFace.DocID">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.Country">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.Entity">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.FiscalName">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.AYear">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.ANumber">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.Batch">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.Serial">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.DocumentGUID">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.IssuedTimeStamp">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.EnrolledTimeStamp">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.PaidTimeStamp">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.CancelledTimeStamp">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.InternalID">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.BatchID">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.BatchTimeStamp">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.BatchRequestorCountry">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.BatchRequestorEntity">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.BatchPosition">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.ReceiverCountry">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.ReceiverEntity">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.ReceiverTaxID">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.ReceiverName">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.ClaveAgente">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.NumeroDePoliza">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.Currency">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.TotalAmount">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.Type1">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.Type2">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.SuggestedFileName">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.DocID.SuggestedFileName2">
+<remarks/>
+</member>
+<member name="T:FACE.WSFace.FactResponse">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactResponse.Result">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactResponse.TimeStamp">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactResponse.LastResult">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactResponse.Code">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactResponse.Description">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactResponse.Hint">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactResponse.Data">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactResponse.Processor">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactResponse.Identifier">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.FactResponse.BatchIdentifier">
+<remarks/>
+</member>
+<member name="T:FACE.WSFace.RequestTransactionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSFace.RequestTransactionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.RequestTransactionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSFace.SSLTransactionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSFace.SSLTransactionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.SSLTransactionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSFace.SecureTransactionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSFace.SecureTransactionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSFace.SecureTransactionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSGuateFAC.Guatefac">
+<remarks/>
+</member>
+<member name="M:FACE.WSGuateFAC.Guatefac.#ctor">
+<remarks/>
+</member>
+<member name="E:FACE.WSGuateFAC.Guatefac.anulaDocumentoCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSGuateFAC.Guatefac.generaDocumentoCompleted">
+<remarks/>
+</member>
+<member name="M:FACE.WSGuateFAC.Guatefac.anulaDocumento(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSGuateFAC.Guatefac.anulaDocumentoAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSGuateFAC.Guatefac.anulaDocumentoAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSGuateFAC.Guatefac.generaDocumento(System.String,System.String,System.String,System.Decimal,System.Decimal,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSGuateFAC.Guatefac.generaDocumentoAsync(System.String,System.String,System.String,System.Decimal,System.Decimal,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSGuateFAC.Guatefac.generaDocumentoAsync(System.String,System.String,System.String,System.Decimal,System.Decimal,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSGuateFAC.Guatefac.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:FACE.WSGuateFAC.anulaDocumentoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSGuateFAC.anulaDocumentoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSGuateFAC.anulaDocumentoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSGuateFAC.generaDocumentoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSGuateFAC.generaDocumentoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSGuateFAC.generaDocumentoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.SSO_wsEFactura">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.#ctor">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosFacturaCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosFacturaXMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosFactura_PDFCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosFacturaXML_PDFCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaCreditoCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaCreditoXMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaCredito_PDFCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaCreditoXML_PDFCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaDebitoCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaDebitoXMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaDebito_PDFCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaDebitoXML_PDFCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaFacturaCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaFacturaXMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaNotaCreditoCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaNotaCreditoXMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaNotaDebitoCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaNotaDebitoXMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionFacturaCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionNotaCreditoCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionNotaDebitoCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionFacturaXMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionNotaCreditoXMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionNotaDebitoXMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaFacturaCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaFacturaXMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaNotaCreditoCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaNotaCreditoXMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaNotaDebitoCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaNotaDebitoXMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraLoteDocumentosCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraLoteDocumentosXMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraLoteDocumentos2Completed">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraLoteDocumentos2XMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFacturaCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFactura_PDFCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFacturaXMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFacturaXMLDteCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFacturaXML_PDFCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFactura2Completed">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFactura2XMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.ResguardoFacturaXMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCreditoCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCredito_PDFCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCreditoXMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCreditoXMLDteCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCreditoXML_PDFCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCredito2Completed">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCredito2XMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCredito3Completed">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCredito3XMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebitoCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebito_PDFCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebitoXMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebitoXML_PDFCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebitoXMLdteCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebito2Completed">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebito2XMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebito3Completed">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebito3XMLCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mInsertaFacturaDetalleCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mActualizaFacturaCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mInsertaNotaCreditoDetalleCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mInsertaNotaDebitoDetalleCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mRetornaPDFCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mConsultaPDFCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mConsultaPDFwsCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mGeneraPDFCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mLoginCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mValidaLoginCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraEFactura3_PDFCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraEFactura2Completed">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraEFactura3Completed">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaCredito2Completed">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaCredito3Completed">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaCredito3_PDFCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaEFactura3Completed">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaEFactura3_PDFCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaNC3Completed">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaNC3_PDFCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaND3Completed">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaND3_PDFCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaDebito2Completed">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaDebito3Completed">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaDebito3_PDFCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaiTextoCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulacionCorrelativoCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mExisteDocumentoCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mValidaNitCompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDTECompleted">
+<remarks/>
+</member>
+<member name="E:FACE.WSMegaPrinter.SSO_wsEFactura.mValidaDocumentoCompleted">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosFactura(FACE.WSMegaPrinter.BusquedaFactura)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosFacturaAsync(FACE.WSMegaPrinter.BusquedaFactura)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosFacturaAsync(FACE.WSMegaPrinter.BusquedaFactura,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosFacturaXML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosFacturaXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosFacturaXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosFactura_PDF(FACE.WSMegaPrinter.BusquedaFactura)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosFactura_PDFAsync(FACE.WSMegaPrinter.BusquedaFactura)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosFactura_PDFAsync(FACE.WSMegaPrinter.BusquedaFactura,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosFacturaXML_PDF(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosFacturaXML_PDFAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosFacturaXML_PDFAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaCredito(FACE.WSMegaPrinter.BusquedaNotaCredito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaCreditoAsync(FACE.WSMegaPrinter.BusquedaNotaCredito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaCreditoAsync(FACE.WSMegaPrinter.BusquedaNotaCredito,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaCreditoXML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaCreditoXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaCreditoXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaCredito_PDF(FACE.WSMegaPrinter.BusquedaNotaCredito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaCredito_PDFAsync(FACE.WSMegaPrinter.BusquedaNotaCredito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaCredito_PDFAsync(FACE.WSMegaPrinter.BusquedaNotaCredito,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaCreditoXML_PDF(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaCreditoXML_PDFAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaCreditoXML_PDFAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaDebito(FACE.WSMegaPrinter.BusquedaNotaDebito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaDebitoAsync(FACE.WSMegaPrinter.BusquedaNotaDebito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaDebitoAsync(FACE.WSMegaPrinter.BusquedaNotaDebito,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaDebitoXML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaDebitoXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaDebitoXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaDebito_PDF(FACE.WSMegaPrinter.BusquedaNotaDebito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaDebito_PDFAsync(FACE.WSMegaPrinter.BusquedaNotaDebito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaDebito_PDFAsync(FACE.WSMegaPrinter.BusquedaNotaDebito,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaDebitoXML_PDF(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaDebitoXML_PDFAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDatosNotaDebitoXML_PDFAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaFactura(FACE.WSMegaPrinter.Factura)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaFacturaAsync(FACE.WSMegaPrinter.Factura)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaFacturaAsync(FACE.WSMegaPrinter.Factura,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaFacturaXML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaFacturaXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaFacturaXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaNotaCredito(FACE.WSMegaPrinter.NotaCredito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaNotaCreditoAsync(FACE.WSMegaPrinter.NotaCredito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaNotaCreditoAsync(FACE.WSMegaPrinter.NotaCredito,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaNotaCreditoXML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaNotaCreditoXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaNotaCreditoXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaNotaDebito(FACE.WSMegaPrinter.NotaDebito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaNotaDebitoAsync(FACE.WSMegaPrinter.NotaDebito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaNotaDebitoAsync(FACE.WSMegaPrinter.NotaDebito,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaNotaDebitoXML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaNotaDebitoXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.ValidaNotaDebitoXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionFactura(FACE.WSMegaPrinter.AnulaFactura)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionFacturaAsync(FACE.WSMegaPrinter.AnulaFactura)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionFacturaAsync(FACE.WSMegaPrinter.AnulaFactura,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionNotaCredito(FACE.WSMegaPrinter.AnulaNotaCredito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionNotaCreditoAsync(FACE.WSMegaPrinter.AnulaNotaCredito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionNotaCreditoAsync(FACE.WSMegaPrinter.AnulaNotaCredito,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionNotaDebito(FACE.WSMegaPrinter.AnulaNotaDebito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionNotaDebitoAsync(FACE.WSMegaPrinter.AnulaNotaDebito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionNotaDebitoAsync(FACE.WSMegaPrinter.AnulaNotaDebito,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionFacturaXML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionFacturaXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionFacturaXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionNotaCreditoXML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionNotaCreditoXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionNotaCreditoXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionNotaDebitoXML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionNotaDebitoXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulacionNotaDebitoXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaFactura(FACE.WSMegaPrinter.Factura)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaFacturaAsync(FACE.WSMegaPrinter.Factura)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaFacturaAsync(FACE.WSMegaPrinter.Factura,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaFacturaXML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaFacturaXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaFacturaXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaNotaCredito(FACE.WSMegaPrinter.NotaCredito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaNotaCreditoAsync(FACE.WSMegaPrinter.NotaCredito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaNotaCreditoAsync(FACE.WSMegaPrinter.NotaCredito,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaNotaCreditoXML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaNotaCreditoXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaNotaCreditoXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaNotaDebito(FACE.WSMegaPrinter.NotaDebito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaNotaDebitoAsync(FACE.WSMegaPrinter.NotaDebito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaNotaDebitoAsync(FACE.WSMegaPrinter.NotaDebito,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaNotaDebitoXML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaNotaDebitoXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.AnulaNotaDebitoXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraLoteDocumentos(FACE.WSMegaPrinter.LoteDocumentos)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraLoteDocumentosAsync(FACE.WSMegaPrinter.LoteDocumentos)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraLoteDocumentosAsync(FACE.WSMegaPrinter.LoteDocumentos,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraLoteDocumentosXML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraLoteDocumentosXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraLoteDocumentosXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraLoteDocumentos2(FACE.WSMegaPrinter.LoteDocumentos)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraLoteDocumentos2Async(FACE.WSMegaPrinter.LoteDocumentos)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraLoteDocumentos2Async(FACE.WSMegaPrinter.LoteDocumentos,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraLoteDocumentos2XML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraLoteDocumentos2XMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraLoteDocumentos2XMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFactura(FACE.WSMegaPrinter.Factura)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFacturaAsync(FACE.WSMegaPrinter.Factura)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFacturaAsync(FACE.WSMegaPrinter.Factura,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFactura_PDF(FACE.WSMegaPrinter.Factura)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFactura_PDFAsync(FACE.WSMegaPrinter.Factura)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFactura_PDFAsync(FACE.WSMegaPrinter.Factura,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFacturaXML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFacturaXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFacturaXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFacturaXMLDte(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFacturaXMLDteAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFacturaXMLDteAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFacturaXML_PDF(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFacturaXML_PDFAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFacturaXML_PDFAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFactura2(FACE.WSMegaPrinter.Factura)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFactura2Async(FACE.WSMegaPrinter.Factura)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFactura2Async(FACE.WSMegaPrinter.Factura,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFactura2XML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFactura2XMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraFactura2XMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.ResguardoFacturaXML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.ResguardoFacturaXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.ResguardoFacturaXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCredito(FACE.WSMegaPrinter.NotaCredito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCreditoAsync(FACE.WSMegaPrinter.NotaCredito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCreditoAsync(FACE.WSMegaPrinter.NotaCredito,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCredito_PDF(FACE.WSMegaPrinter.NotaCredito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCredito_PDFAsync(FACE.WSMegaPrinter.NotaCredito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCredito_PDFAsync(FACE.WSMegaPrinter.NotaCredito,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCreditoXML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCreditoXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCreditoXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCreditoXMLDte(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCreditoXMLDteAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCreditoXMLDteAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCreditoXML_PDF(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCreditoXML_PDFAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCreditoXML_PDFAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCredito2(FACE.WSMegaPrinter.NotaCredito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCredito2Async(FACE.WSMegaPrinter.NotaCredito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCredito2Async(FACE.WSMegaPrinter.NotaCredito,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCredito2XML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCredito2XMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCredito2XMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCredito3(FACE.WSMegaPrinter.NotaCredito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCredito3Async(FACE.WSMegaPrinter.NotaCredito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCredito3Async(FACE.WSMegaPrinter.NotaCredito,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCredito3XML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCredito3XMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaCredito3XMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebito(FACE.WSMegaPrinter.NotaDebito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebitoAsync(FACE.WSMegaPrinter.NotaDebito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebitoAsync(FACE.WSMegaPrinter.NotaDebito,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebito_PDF(FACE.WSMegaPrinter.NotaDebito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebito_PDFAsync(FACE.WSMegaPrinter.NotaDebito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebito_PDFAsync(FACE.WSMegaPrinter.NotaDebito,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebitoXML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebitoXMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebitoXMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebitoXML_PDF(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebitoXML_PDFAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebitoXML_PDFAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebitoXMLdte(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebitoXMLdteAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebitoXMLdteAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebito2(FACE.WSMegaPrinter.NotaDebito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebito2Async(FACE.WSMegaPrinter.NotaDebito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebito2Async(FACE.WSMegaPrinter.NotaDebito,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebito2XML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebito2XMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebito2XMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebito3(FACE.WSMegaPrinter.NotaDebito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebito3Async(FACE.WSMegaPrinter.NotaDebito)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebito3Async(FACE.WSMegaPrinter.NotaDebito,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebito3XML(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebito3XMLAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RegistraNotaDebito3XMLAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mInsertaFacturaDetalle(System.String[])">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mInsertaFacturaDetalleAsync(System.String[])">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mInsertaFacturaDetalleAsync(System.String[],System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mActualizaFactura(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mActualizaFacturaAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mActualizaFacturaAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mInsertaNotaCreditoDetalle(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mInsertaNotaCreditoDetalleAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mInsertaNotaCreditoDetalleAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mInsertaNotaDebitoDetalle(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mInsertaNotaDebitoDetalleAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mInsertaNotaDebitoDetalleAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRetornaPDF(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRetornaPDFAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRetornaPDFAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mConsultaPDF(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mConsultaPDFAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mConsultaPDFAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mConsultaPDFws(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mConsultaPDFwsAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mConsultaPDFwsAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mGeneraPDF(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mGeneraPDFAsync(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mGeneraPDFAsync(System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mLogin(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mLoginAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mLoginAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mValidaLogin(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mValidaLoginAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mValidaLoginAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraEFactura3_PDF(System.String,System.Int32,System.Int32,System.Int32,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraEFactura3_PDFAsync(System.String,System.Int32,System.Int32,System.Int32,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraEFactura3_PDFAsync(System.String,System.Int32,System.Int32,System.Int32,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraEFactura2(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraEFactura2Async(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraEFactura2Async(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraEFactura3(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraEFactura3Async(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraEFactura3Async(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaCredito2(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaCredito2Async(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaCredito2Async(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaCredito3(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaCredito3Async(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaCredito3Async(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaCredito3_PDF(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaCredito3_PDFAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaCredito3_PDFAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaEFactura3(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaEFactura3Async(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaEFactura3Async(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaEFactura3_PDF(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaEFactura3_PDFAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaEFactura3_PDFAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaNC3(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaNC3Async(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaNC3Async(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaNC3_PDF(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaNC3_PDFAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaNC3_PDFAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaND3(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaND3Async(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaND3Async(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaND3_PDF(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaND3_PDFAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaND3_PDFAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaDebito2(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaDebito2Async(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaDebito2Async(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaDebito3(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaDebito3Async(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaDebito3Async(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaDebito3_PDF(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaDebito3_PDFAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mRegistraNotaDebito3_PDFAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaiTexto(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaiTextoAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulaiTextoAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulacionCorrelativo(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulacionCorrelativoAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mAnulacionCorrelativoAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mExisteDocumento(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mExisteDocumentoAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mExisteDocumentoAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mValidaNit(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mValidaNitAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mValidaNitAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDTE(System.String,System.Int32,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDTEAsync(System.String,System.Int32,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.RetornaDTEAsync(System.String,System.Int32,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mValidaDocumento(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mValidaDocumentoAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.mValidaDocumentoAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:FACE.WSMegaPrinter.SSO_wsEFactura.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.BusquedaFactura">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.BusquedaFactura.NODOCUMENTO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.BusquedaFactura.SERIE">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.BusquedaFactura.EMPRESA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.BusquedaFactura.SUCURSAL">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.BusquedaDocumento">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.clsResponseLote">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.clsResponseLote.pResultado">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.clsResponseLote.pDescripcion">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.clsResponseLote.pResultadoDocumentos">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.clsResponseLote.Pedido">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.clsResponseLote.TotalDocumentos">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.clsResponseLote.Errores">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.clsResponseLote.Procesados">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.clsResponseGeneral">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.clsResponseGeneral.pResultado">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.clsResponseGeneral.pDescripcion">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.clsResponseGeneral.pRespuesta">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.clsResponseGeneral.pIdSat">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.clsResponseGeneral.pIdSerieSat">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.clsResponseGeneral.pCAE">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.clsResponseGeneral.pCAEC">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.clsResponseGeneral.pSerie">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.clsResponseGeneral.pNoDocumento">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.clsResponseGeneral.pDte">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.LoteDocumentos">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.LoteDocumentos.PEDIDO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.LoteDocumentos.TOTALDOCUMENTOS">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.LoteDocumentos.DOCUMENTOS">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.Factura">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.Factura.ENCABEZADO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.Factura.OPCIONAL">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.Factura.DETALLE">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.EncabezadoFactura">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoFactura.NOFACTURA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoFactura.RESOLUCION">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoFactura.IDSERIE">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoFactura.EMPRESA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoFactura.SUCURSAL">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoFactura.CAJA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoFactura.USUARIO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoFactura.FECHAEMISION">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoFactura.GENERACION">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoFactura.MONEDA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoFactura.TASACAMBIO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoFactura.NOMBRECONTRIBUYENTE">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoFactura.DIRECCIONCONTRIBUYENTE">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoFactura.NITCONTRIBUYENTE">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoFactura.VALORNETO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoFactura.IVA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoFactura.TOTAL">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoFactura.DESCUENTO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoFactura.EXENTO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoFactura.RAZONANULACION">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.GeneracionDocumento">
+<remarks/>
+</member>
+<member name="F:FACE.WSMegaPrinter.GeneracionDocumento.O">
+<remarks/>
+</member>
+<member name="F:FACE.WSMegaPrinter.GeneracionDocumento.C">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.OpcionalFactura">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL1">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL2">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL3">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL4">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL5">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL6">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL7">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL8">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL9">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL10">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL11">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL12">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL13">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL14">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL15">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL16">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL17">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL18">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL19">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL20">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL21">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL22">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL23">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL24">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL25">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL26">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL27">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL28">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL29">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL30">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL31">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL32">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL33">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL34">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL35">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL36">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL37">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL38">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL39">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL40">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL41">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL42">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL43">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL44">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL45">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL46">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL47">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL48">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL49">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.OPCIONAL50">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.ANEXO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.TOTAL_LETRAS">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.CORRELATIVO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.RUTA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.CICLO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.TELEFONO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.SALDOANTERIOR">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.CARGODELMES">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.TOTAL_PAGAR">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.FECHAVENCIMIENTO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.PERIODOFACTURADO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalFactura.IMPRESION">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.DetalleFactura">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleFactura.CANTIDAD">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleFactura.DESCRIPCION">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleFactura.METRICA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleFactura.PRECIOUNITARIO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleFactura.VALOR">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleFactura.DETALLE1">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleFactura.DETALLE2">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleFactura.DETALLE3">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleFactura.DETALLE4">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleFactura.DETALLE5">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleFactura.DETALLE6">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleFactura.DETALLE7">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleFactura.DETALLE8">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleFactura.DETALLE9">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleFactura.DETALLE10">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.Documento">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.NotaCredito">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.NotaCredito.ENCABEZADO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.NotaCredito.OPCIONAL">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.NotaCredito.DETALLE">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.EncabezadoNotaCredito">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.NODOCUMENTO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.RESOLUCION">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.IDSERIE">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.EMPRESA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.SUCURSAL">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.CAJA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.USUARIO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.FECHAEMISION">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.GENERACION">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.MONEDA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.TASACAMBIO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.NOMBRECONTRIBUYENTE">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.DIRECCIONCONTRIBUYENTE">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.NITCONTRIBUYENTE">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.VALORNETO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.IVA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.TOTAL">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.DESCUENTO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.EXENTO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.NOFACTURA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.SERIEFACTURA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.FECHAFACTURA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.CONCEPTO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaCredito.RAZONANULACION">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.ConceptoNC">
+<remarks/>
+</member>
+<member name="F:FACE.WSMegaPrinter.ConceptoNC.DEVOLUCION">
+<remarks/>
+</member>
+<member name="F:FACE.WSMegaPrinter.ConceptoNC.ANULACION">
+<remarks/>
+</member>
+<member name="F:FACE.WSMegaPrinter.ConceptoNC.DESCUENTO">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.OpcionalNotaCredito">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL1">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL2">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL3">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL4">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL5">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL6">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL7">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL8">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL9">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL10">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL11">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL12">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL13">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL14">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL15">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL16">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL17">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL18">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL19">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL20">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL21">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL22">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL23">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL24">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL25">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL26">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL27">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL28">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL29">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL30">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL31">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL32">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL33">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL34">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL35">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL36">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL37">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL38">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL39">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL40">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL41">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL42">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL43">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL44">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL45">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL46">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL47">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL48">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL49">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.OPCIONAL50">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.ANEXO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.TOTAL_LETRAS">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.TELEFONO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaCredito.HECHOPOR">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.DetalleNotaCredito">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaCredito.CANTIDAD">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaCredito.DESCRIPCION">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaCredito.METRICA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaCredito.PRECIOUNITARIO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaCredito.VALOR">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaCredito.DETALLE1">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaCredito.DETALLE2">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaCredito.DETALLE3">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaCredito.DETALLE4">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaCredito.DETALLE5">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaCredito.DETALLE6">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaCredito.DETALLE7">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaCredito.DETALLE8">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaCredito.DETALLE9">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaCredito.DETALLE10">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.NotaDebito">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.NotaDebito.ENCABEZADO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.NotaDebito.OPCIONAL">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.NotaDebito.DETALLE">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.EncabezadoNotaDebito">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.NODOCUMENTO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.RESOLUCION">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.IDSERIE">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.EMPRESA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.SUCURSAL">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.CAJA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.USUARIO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.FECHAEMISION">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.GENERACION">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.MONEDA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.TASACAMBIO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.NOMBRECONTRIBUYENTE">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.DIRECCIONCONTRIBUYENTE">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.NITCONTRIBUYENTE">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.VALORNETO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.IVA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.TOTAL">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.EXENTO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.NOFACTURA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.SERIEFACTURA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.FECHAFACTURA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.CONCEPTO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.EncabezadoNotaDebito.RAZONANULACION">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.ConceptoND">
+<remarks/>
+</member>
+<member name="F:FACE.WSMegaPrinter.ConceptoND.RECARGO">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.OpcionalNotaDebito">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL1">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL2">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL3">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL4">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL5">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL6">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL7">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL8">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL9">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL10">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL11">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL12">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL13">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL14">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL15">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL16">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL17">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL18">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL19">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL20">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL21">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL22">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL23">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL24">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL25">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL26">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL27">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL28">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL29">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL30">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL31">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL32">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL33">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL34">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL35">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL36">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL37">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL38">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL39">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL40">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL41">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL42">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL43">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL44">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL45">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL46">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL47">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL48">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL49">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.OPCIONAL50">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.ANEXO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.TOTAL_LETRAS">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.TELEFONO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.OpcionalNotaDebito.HECHOPOR">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.DetalleNotaDebito">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaDebito.CANTIDAD">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaDebito.DESCRIPCION">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaDebito.METRICA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaDebito.PRECIOUNITARIO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaDebito.VALOR">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaDebito.DETALLE1">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaDebito.DETALLE2">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaDebito.DETALLE3">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaDebito.DETALLE4">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaDebito.DETALLE5">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaDebito.DETALLE6">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaDebito.DETALLE7">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaDebito.DETALLE8">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaDebito.DETALLE9">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.DetalleNotaDebito.DETALLE10">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulaDocumento">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulaNotaCredito">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulaNotaCredito.NODOCUMENTO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulaNotaCredito.SERIE">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulaNotaCredito.EMPRESA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulaNotaCredito.SUCURSAL">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulaNotaCredito.RAZONANULACION">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulaNotaDebito">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulaNotaDebito.NODOCUMENTO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulaNotaDebito.SERIE">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulaNotaDebito.EMPRESA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulaNotaDebito.SUCURSAL">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulaNotaDebito.RAZONANULACION">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulaFactura">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulaFactura.NODOCUMENTO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulaFactura.SERIE">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulaFactura.EMPRESA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulaFactura.SUCURSAL">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulaFactura.RAZONANULACION">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.BusquedaNotaCredito">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.BusquedaNotaCredito.NODOCUMENTO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.BusquedaNotaCredito.SERIE">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.BusquedaNotaCredito.EMPRESA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.BusquedaNotaCredito.SUCURSAL">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.BusquedaNotaDebito">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.BusquedaNotaDebito.NODOCUMENTO">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.BusquedaNotaDebito.SERIE">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.BusquedaNotaDebito.EMPRESA">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.BusquedaNotaDebito.SUCURSAL">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosFacturaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosFacturaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RetornaDatosFacturaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosFacturaXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosFacturaXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RetornaDatosFacturaXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosFactura_PDFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosFactura_PDFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RetornaDatosFactura_PDFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosFacturaXML_PDFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosFacturaXML_PDFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RetornaDatosFacturaXML_PDFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosNotaCreditoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosNotaCreditoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RetornaDatosNotaCreditoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosNotaCreditoXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosNotaCreditoXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RetornaDatosNotaCreditoXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosNotaCredito_PDFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosNotaCredito_PDFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RetornaDatosNotaCredito_PDFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosNotaCreditoXML_PDFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosNotaCreditoXML_PDFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RetornaDatosNotaCreditoXML_PDFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosNotaDebitoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosNotaDebitoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RetornaDatosNotaDebitoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosNotaDebitoXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosNotaDebitoXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RetornaDatosNotaDebitoXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosNotaDebito_PDFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosNotaDebito_PDFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RetornaDatosNotaDebito_PDFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosNotaDebitoXML_PDFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDatosNotaDebitoXML_PDFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RetornaDatosNotaDebitoXML_PDFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.ValidaFacturaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.ValidaFacturaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.ValidaFacturaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.ValidaFacturaXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.ValidaFacturaXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.ValidaFacturaXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.ValidaNotaCreditoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.ValidaNotaCreditoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.ValidaNotaCreditoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.ValidaNotaCreditoXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.ValidaNotaCreditoXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.ValidaNotaCreditoXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.ValidaNotaDebitoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.ValidaNotaDebitoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.ValidaNotaDebitoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.ValidaNotaDebitoXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.ValidaNotaDebitoXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.ValidaNotaDebitoXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulacionFacturaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulacionFacturaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulacionFacturaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulacionNotaCreditoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulacionNotaCreditoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulacionNotaCreditoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulacionNotaDebitoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulacionNotaDebitoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulacionNotaDebitoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulacionFacturaXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulacionFacturaXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulacionFacturaXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulacionNotaCreditoXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulacionNotaCreditoXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulacionNotaCreditoXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulacionNotaDebitoXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulacionNotaDebitoXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulacionNotaDebitoXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulaFacturaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulaFacturaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulaFacturaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulaFacturaXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulaFacturaXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulaFacturaXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulaNotaCreditoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulaNotaCreditoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulaNotaCreditoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulaNotaCreditoXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulaNotaCreditoXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulaNotaCreditoXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulaNotaDebitoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulaNotaDebitoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulaNotaDebitoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulaNotaDebitoXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.AnulaNotaDebitoXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.AnulaNotaDebitoXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraLoteDocumentosCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraLoteDocumentosCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraLoteDocumentosCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraLoteDocumentosXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraLoteDocumentosXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraLoteDocumentosXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraLoteDocumentos2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraLoteDocumentos2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraLoteDocumentos2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraLoteDocumentos2XMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraLoteDocumentos2XMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraLoteDocumentos2XMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraFacturaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraFacturaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraFacturaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraFactura_PDFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraFactura_PDFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraFactura_PDFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraFacturaXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraFacturaXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraFacturaXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraFacturaXMLDteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraFacturaXMLDteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraFacturaXMLDteCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraFacturaXML_PDFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraFacturaXML_PDFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraFacturaXML_PDFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraFactura2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraFactura2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraFactura2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraFactura2XMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraFactura2XMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraFactura2XMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.ResguardoFacturaXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.ResguardoFacturaXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.ResguardoFacturaXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaCreditoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaCreditoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraNotaCreditoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaCredito_PDFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaCredito_PDFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraNotaCredito_PDFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaCreditoXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaCreditoXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraNotaCreditoXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaCreditoXMLDteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaCreditoXMLDteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraNotaCreditoXMLDteCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaCreditoXML_PDFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaCreditoXML_PDFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraNotaCreditoXML_PDFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaCredito2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaCredito2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraNotaCredito2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaCredito2XMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaCredito2XMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraNotaCredito2XMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaCredito3CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaCredito3CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraNotaCredito3CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaCredito3XMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaCredito3XMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraNotaCredito3XMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaDebitoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaDebitoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraNotaDebitoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaDebito_PDFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaDebito_PDFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraNotaDebito_PDFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaDebitoXMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaDebitoXMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraNotaDebitoXMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaDebitoXML_PDFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaDebitoXML_PDFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraNotaDebitoXML_PDFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaDebitoXMLdteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaDebitoXMLdteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraNotaDebitoXMLdteCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaDebito2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaDebito2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraNotaDebito2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaDebito2XMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaDebito2XMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraNotaDebito2XMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaDebito3CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaDebito3CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraNotaDebito3CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaDebito3XMLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RegistraNotaDebito3XMLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RegistraNotaDebito3XMLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mInsertaFacturaDetalleCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mInsertaFacturaDetalleCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mInsertaFacturaDetalleCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mActualizaFacturaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mActualizaFacturaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mActualizaFacturaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mInsertaNotaCreditoDetalleCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mInsertaNotaCreditoDetalleCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mInsertaNotaCreditoDetalleCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mInsertaNotaDebitoDetalleCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mInsertaNotaDebitoDetalleCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mInsertaNotaDebitoDetalleCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mRetornaPDFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mRetornaPDFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mRetornaPDFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mConsultaPDFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mConsultaPDFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mConsultaPDFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mConsultaPDFwsCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mConsultaPDFwsCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mConsultaPDFwsCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mGeneraPDFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mGeneraPDFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mGeneraPDFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mLoginCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mLoginCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mLoginCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mValidaLoginCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mValidaLoginCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mValidaLoginCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mRegistraEFactura3_PDFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mRegistraEFactura3_PDFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mRegistraEFactura3_PDFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mRegistraEFactura2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mRegistraEFactura2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mRegistraEFactura2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mRegistraEFactura3CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mRegistraEFactura3CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mRegistraEFactura3CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mRegistraNotaCredito2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mRegistraNotaCredito2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mRegistraNotaCredito2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mRegistraNotaCredito3CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mRegistraNotaCredito3CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mRegistraNotaCredito3CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mRegistraNotaCredito3_PDFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mRegistraNotaCredito3_PDFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mRegistraNotaCredito3_PDFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mAnulaEFactura3CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mAnulaEFactura3CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mAnulaEFactura3CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mAnulaEFactura3_PDFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mAnulaEFactura3_PDFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mAnulaEFactura3_PDFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mAnulaNC3CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mAnulaNC3CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mAnulaNC3CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mAnulaNC3_PDFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mAnulaNC3_PDFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mAnulaNC3_PDFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mAnulaND3CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mAnulaND3CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mAnulaND3CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mAnulaND3_PDFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mAnulaND3_PDFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mAnulaND3_PDFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mRegistraNotaDebito2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mRegistraNotaDebito2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mRegistraNotaDebito2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mRegistraNotaDebito3CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mRegistraNotaDebito3CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mRegistraNotaDebito3CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mRegistraNotaDebito3_PDFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mRegistraNotaDebito3_PDFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mRegistraNotaDebito3_PDFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mAnulaiTextoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mAnulaiTextoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mAnulaiTextoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mAnulacionCorrelativoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mAnulacionCorrelativoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mAnulacionCorrelativoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mExisteDocumentoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mExisteDocumentoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mExisteDocumentoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mValidaNitCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mValidaNitCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mValidaNitCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDTECompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.RetornaDTECompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.RetornaDTECompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mValidaDocumentoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:FACE.WSMegaPrinter.mValidaDocumentoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:FACE.WSMegaPrinter.mValidaDocumentoCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

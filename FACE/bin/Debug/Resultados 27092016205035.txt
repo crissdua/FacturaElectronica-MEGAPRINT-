@@ -1,0 +1,11 @@
+1) Documento:  0 Estado: Rechazado Motivo:Error en la generaci?n de factura [Factura fuera del rango de fecha de la resolucion]  
+2) Documento:  0 Estado: Rechazado Motivo:Error en la generaci?n de factura [Factura fuera del rango de fecha de la resolucion]  
+Arithmetic overflow error converting numeric to data type numeric.
+Arithmetic overflow error converting numeric to data type numeric.
+La conversi?n del tipo 'DBNull' en el tipo 'String' no es v?lida.
+5) Documento:  0 Estado: Rechazado Motivo:Error en la generaci?n de factura [Factura fuera del rango de fecha de la resolucion]  
+6) Documento:  0 Estado: Rechazado Motivo:Error en la generaci?n de factura [El documento ya se encuentra registrado]  
+7) Documento:  0 Estado: Aprobado
+Referencia a objeto no establecida como instancia de un objeto.
+8) Documento:  0 Estado: Aprobado
+Referencia a objeto no establecida como instancia de un objeto.

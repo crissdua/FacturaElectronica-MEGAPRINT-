@@ -1,0 +1,2 @@
+1) Documento: BRNCE 3 Estado: Rechazado Motivo:Error en la generaci?n de nota de cr?dito [Resolucion no parametrizada]  
+2) Documento: BRNCE 2 Estado: Rechazado Motivo:Error en la generación de nota de crédito [Resolucion no parametrizada]  

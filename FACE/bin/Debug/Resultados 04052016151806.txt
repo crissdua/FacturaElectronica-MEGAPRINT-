@@ -1,0 +1,7 @@
+Cannot find either column "DBO" or the user-defined function or aggregate "DBO.CORRIGEDOC_NUM", or the name is ambiguous.
+Cannot find either column "DBO" or the user-defined function or aggregate "DBO.CODIGO_EAN", or the name is ambiguous.
+The variable '@MyCursorENC' does not currently have a cursor allocated to it.
+The variable '@MyCursorENC' does not currently have a cursor allocated to it.
+The variable '@MyCursorENC' does not currently have a cursor allocated to it.
+Cannot find either column "dbo" or the user-defined function or aggregate "dbo.ufn_ValidaDato", or the name is ambiguous.
+ENTRA AL PRIMER IF

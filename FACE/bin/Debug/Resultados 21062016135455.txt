@@ -1,0 +1,1 @@
+1) Documento:  0 Estado: Rechazado Motivo:Error en la generación de factura [Factura fuera del rango de fecha de la resolucion] Error en la generación de factura [Factura fuera del rango de fecha de la resolucion] Error en la generación de factura [Factura fuera del rango de fecha de la resolucion]

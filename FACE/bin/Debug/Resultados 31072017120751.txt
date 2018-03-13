@@ -1,0 +1,2 @@
+1) Documento:  0 Estado: Rechazado Motivo:Error en la generación de factura [Resolucion no parametrizada
+texto1]  

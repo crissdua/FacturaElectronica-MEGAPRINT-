@@ -1,0 +1,3 @@
+1) Documento: BRNCE 2 Estado: Rechazado Motivo:Error en la generaci?n de nota de cr?dito [Valor Neto + IVA + Exento no es igual al Total de la Nota de Credito]  
+
+Object reference not set to an instance of an object.

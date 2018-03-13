@@ -1,0 +1,1 @@
+1) Documento: BRNCE 1 Estado: Rechazado Motivo:Error en la generación de nota de crédito [Valor Neto + IVA + Exento no es igual al Total de la Nota de Credito]  

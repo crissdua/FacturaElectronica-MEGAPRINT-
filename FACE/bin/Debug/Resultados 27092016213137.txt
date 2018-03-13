@@ -1,0 +1,2 @@
+1) Documento:  0 Estado: Rechazado Motivo:Error en la generaci?n de factura [El documento ya se encuentra registrado]  
+2) Documento:  0 Estado: Aprobado

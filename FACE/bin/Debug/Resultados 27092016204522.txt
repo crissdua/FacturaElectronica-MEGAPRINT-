@@ -1,0 +1,4 @@
+1) Documento:  0 Estado: Rechazado Motivo:Error en la generaci?n de factura [Factura fuera del rango de fecha de la resolucion]  
+2) Documento:  0 Estado: Rechazado Motivo:Error en la generaci?n de factura [Factura fuera del rango de fecha de la resolucion]  
+Arithmetic overflow error converting numeric to data type numeric.
+Arithmetic overflow error converting numeric to data type numeric.

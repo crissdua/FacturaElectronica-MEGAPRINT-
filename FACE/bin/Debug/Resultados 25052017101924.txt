@@ -1,0 +1,5 @@
+Invalid column name 'u_nit'.
+The variable '@MyCursorENC' does not currently have a cursor allocated to it.
+The variable '@MyCursorENC' does not currently have a cursor allocated to it.
+The variable '@MyCursorENC' does not currently have a cursor allocated to it.
+ENTRA AL PRIMER IF

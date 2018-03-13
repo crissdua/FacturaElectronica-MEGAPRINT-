@@ -1,0 +1,4 @@
+1) Documento:  0 Estado: Rechazado Motivo:Error en la generación de factura [The INSERT statement conflicted with the FOREIGN KEY constraint "FK_SSO_IFL_DOCUMENTO_SSO_SEG_SUCURSAL". The conflict occurred in database "IFACERE_LOCAL", table "dbo.SSO_SEG_SUCURSAL".
+The statement has been terminated.] Error en la generación de factura [The INSERT statement conflicted with the FOREIGN KEY constraint "FK_SSO_IFL_DOCUMENTO_SSO_SEG_SUCURSAL". The conflict occurred in database "IFACERE_LOCAL", table "dbo.SSO_SEG_SUCURSAL".
+The statement has been terminated.] Error en la generación de factura [The INSERT statement conflicted with the FOREIGN KEY constraint "FK_SSO_IFL_DOCUMENTO_SSO_SEG_SUCURSAL". The conflict occurred in database "IFACERE_LOCAL", table "dbo.SSO_SEG_SUCURSAL".
+The statement has been terminated.]

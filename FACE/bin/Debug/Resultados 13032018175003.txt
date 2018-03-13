@@ -1,0 +1,2 @@
+Arithmetic overflow error converting varchar to data type numeric.
+Arithmetic overflow error converting varchar to data type numeric.

@@ -1,0 +1,1 @@
+La etiqueta de apertura 'ENCABEZADO' en la línea 1 posición 49 no coincide con la etiqueta de cierre de 'IDSERIE'. línea 1, posición 144.

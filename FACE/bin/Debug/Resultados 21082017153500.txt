@@ -1,0 +1,2 @@
+1) Documento: BRFAC 2 Estado: Aprobado
+1) Documento: BRFAC 2 Estado: Rechazado Motivo:Error en la generación de factura [El documento ya se encuentra registrado]  

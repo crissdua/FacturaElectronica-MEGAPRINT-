@@ -1,0 +1,552 @@
+
+ALTER PROCEDURE [dbo].[SP_ITFACE_GENERAXML] (@DOCENTRY INT,@TIPODOC VARCHAR(3),@ENLINEA CHAR(1))
+AS
+
+DECLARE @MyCursorENC CURSOR 
+DECLARE @MyCursorDET CURSOR
+DECLARE @HEADER VARCHAR(MAX)
+DECLARE @DETAIL VARCHAR(MAX)
+DECLARE @FOOTER VARCHAR(MAX)
+DECLARE @FOOTERDETAIL VARCHAR(MAX)
+DECLARE @aROOT VARCHAR(MAX)
+DECLARE @ROOT VARCHAR(MAX)
+DECLARE @ENDROOT AS VARCHAR(MAX)
+DECLARE @RESULT AS VARCHAR(MAX)
+DECLARE @DATOSEMAIL AS VARCHAR(MAX)
+DECLARE @ESTADODOC AS VARCHAR(MAX)
+DECLARE @DIRECCION2 AS VARCHAR(MAX)
+
+SET @AROOT = '<?xml version="1.0" encoding="utf-8"?>'
+SET @ROOT = '<FACTURA>'
+SET @ENDROOT ='</FACTURA>'
+
+SET @ESTADODOC=DBO.ESTADO_DOC(@DOCENTRY)
+	
+DECLARE @Version VARCHAR(2) 
+DECLARE @NOFACTURA VARCHAR(50)
+DECLARE @RESOLUCION VARCHAR(50)
+DECLARE @IDSERIE VARCHAR(50)
+DECLARE @EMPRESA VARCHAR(20)
+DECLARE @SUCURSAL VARCHAR(20)
+DECLARE @CAJA VARCHAR(20)
+DECLARE @USUARIO VARCHAR(55)
+DECLARE @MONEDA VARCHAR(10)
+DECLARE @TASACAMBIO VARCHAR(20)
+DECLARE @GENERACION VARCHAR(10)
+DECLARE @FECHAEMISION VARCHAR(20)
+DECLARE @NOMBRECONTRIBUYENTE VARCHAR(100)
+DECLARE @DIRECCIONCONTRIBUYENTE VARCHAR(100)
+DECLARE @NITCONTRIBUYENTE VARCHAR(500)
+DECLARE @TOTAL decimal(18,2)
+
+DECLARE @Descripcion VARCHAR(MAX)
+DECLARE	@CodigoEAN VARCHAR(MAX)
+DECLARE	@Cantidad VARCHAR(MAX)
+DECLARE	@ValorSinDR_Precio  VARCHAR(MAX)
+DECLARE	@ValorSinDR_Monto  VARCHAR(MAX)
+DECLARE	@SumaDeDescuentos  VARCHAR(MAX)
+DECLARE	@Operacion  VARCHAR(MAX)
+DECLARE	@Servicio  VARCHAR(MAX)
+DECLARE	@DescuentoORecargo_Base  VARCHAR(MAX)
+DECLARE	@DescuentoORecargo_Tasa    VARCHAR(MAX)
+DECLARE	@DescuentoORecargo_Monto VARCHAR(MAX)
+DECLARE	@ValorConDR_Precio  VARCHAR(MAX)
+DECLARE	@ValorConDR_Monto  VARCHAR(MAX)
+DECLARE	@TotalDeImpuestos  VARCHAR(MAX)
+DECLARE	@IngresosNetosGravados  varchar(max)
+DECLARE	@TotalDeIVA  VARCHAR(MAX)
+DECLARE	@Impuesto_Tipo  VARCHAR(MAX)
+DECLARE	@Impuesto_Base  VARCHAR(MAX)
+DECLARE	@Impuesto_Tasa  VARCHAR(MAX)
+DECLARE	@Impuesto_Monto VARCHAR(MAX)
+DECLARE	@Categoria  VARCHAR(MAX)
+DECLARE	@Texto  NVARCHAR(MAX)
+DECLARE @SubTotalSinDR decimal(18,2)
+DECLARE @TotalLetras as varchar(max)
+DECLARE @TotalImpuesto as decimal(18,2) 
+DECLARE @TasaIvaParam as int 
+DECLARE @SubTotalConDR decimal(18,2)
+DECLARE @SumaDeDescuentostot  decimal(18,2)
+DECLARE @DescuentoDocumento decimal(18,2)
+DECLARE @PorcenDescDocumento decimal(18,2)
+DECLARE @FOOTER2 AS VARCHAR(MAX)
+
+
+SET @TotalImpuesto=0
+set @TasaIvaParam=12
+--SET @DIRECCION2 =''
+
+EXEC SP_ITFACE_ENCABEZADO @DOCENTRY,@TIPODOC,@CursorENC = @MyCursorENC OUTPUT;
+	--SELECT @@CURSOR_ROWS;
+EXEC SP_ITFACE_DETALLE @DOCENTRY,@TIPODOC,@CursorDET = @MyCursorDET OUTPUT;
+	--SELECT @@CURSOR_ROWS;
+
+FETCH NEXT FROM @MyCursorENC INTO
+@Version, 
+@NOFACTURA,
+@RESOLUCION,
+@IDSERIE,
+@EMPRESA,
+@SUCURSAL,
+@CAJA,
+@USUARIO,
+@MONEDA,
+@TASACAMBIO,
+@GENERACION,
+@FECHAEMISION,
+@NOMBRECONTRIBUYENTE,
+@DIRECCIONCONTRIBUYENTE,
+@NITCONTRIBUYENTE,
+@TOTAL
+
+WHILE @@FETCH_STATUS = 0
+	BEGIN;
+		FETCH NEXT FROM @MyCursorENC INTO
+		@Version, 
+@NOFACTURA,
+@RESOLUCION,
+@IDSERIE,
+@EMPRESA,
+@SUCURSAL,
+@CAJA,
+@USUARIO,
+@MONEDA,
+@TASACAMBIO,
+@GENERACION,
+@FECHAEMISION,
+@NOMBRECONTRIBUYENTE,
+@DIRECCIONCONTRIBUYENTE,
+@NITCONTRIBUYENTE,
+@TOTAL;
+	END;
+--SELECT @@CURSOR_ROWS;
+
+CLOSE @MyCursorENC;
+DEALLOCATE @MyCursorENC;
+
+SET @HEADER='<ENCABEZADO>'
+SET @HEADER=@HEADER+'<NOFACTURA>1</NOFACTURA>'
+--SET @HEADER=@HEADER+'<NOFACTURA>'+@NOFACTURA+'</NOFACTURA>'
+SET @HEADER=@HEADER+'<RESOLUCION>'+@RESOLUCION+'</RESOLUCION>'
+SET @HEADER=@HEADER+'<IDSERIE>'+@IDSERIE+'</IDSERIE>'
+SET @HEADER=@HEADER+'<EMPRESA>'+@EMPRESA+'</EMPRESA>'
+SET @HEADER=@HEADER+'<SUCURSAL>'+@SUCURSAL+'</SUCURSAL>'
+SET @HEADER=@HEADER+'<CAJA>'+@CAJA+'</CAJA>'
+SET @HEADER=@HEADER+'<USUARIO>'+@USUARIO+'</USUARIO>'
+SET @HEADER=@HEADER+'<MONEDA>'+@MONEDA+'</MONEDA>'
+SET @HEADER=@HEADER+'<TASACAMBIO>'+@TASACAMBIO+'</TASACAMBIO>'
+SET @HEADER=@HEADER+'<GENERACION>'+@GENERACION+'</GENERACION>'
+SET @HEADER=@HEADER+'<FECHAEMISION>'+@FECHAEMISION+'</FECHAEMISION>'
+SET @HEADER=@HEADER+'<NOMBRECONTRIBUYENTE>'+@NOMBRECONTRIBUYENTE+'</NOMBRECONTRIBUYENTE>'
+SET @HEADER=@HEADER+'<DIRECCIONCONTRIBUYENTE>'+@DIRECCIONCONTRIBUYENTE+'</DIRECCIONCONTRIBUYENTE>'
+SET @HEADER=@HEADER+'<NITCONTRIBUYENTE>'+@NITCONTRIBUYENTE+'</NITCONTRIBUYENTE>'
+
+
+--SET @HEADER=@HEADER+'<Fecha>'+@FechaEmision+'</Fecha>'
+
+
+
+
+--SET @HEADER=@HEADER+'<Moneda>'+@CodigoDeMoneda+'</Moneda>'
+----
+
+
+IF @TIPODOC ='NC'
+	select @SubTotalSinDR= cast(isnull(SUM(inv1.Quantity * inv1.PriceBefDi),0)as decimal(18,2)) 
+	from RIN1 INV1
+	where DocEntry =@DOCENTRY;
+ELSE
+	select @SubTotalSinDR=cast(isnull(SUM(inv1.Quantity * inv1.PriceBefDi),0) as decimal(18,2))
+	from INV1
+	where DocEntry =@DOCENTRY;
+
+IF @TIPODOC ='NC'
+	select @SubTotalConDR=CASE @MONEDA WHEN 'GTQ' THEN isnull(SUM(linetotal),0) ELSE isnull(SUM(TotalSumSy),0) END
+	from RIN1  
+	where DocEntry =@DOCENTRY
+ELSE
+	select @SubTotalConDR=CASE @MONEDA WHEN 'GTQ' THEN isnull(SUM(linetotal),0) ELSE isnull(SUM(TotalSumSy),0) END
+	from INV1
+	where DocEntry =@DOCENTRY;
+
+
+IF @TIPODOC ='NC'
+	select @SumaDeDescuentostot= sum(PriceBefDi * (DiscPrcnt/100))
+	from RIN1  
+	where DocEntry =@DOCENTRY;
+ELSE
+	select @SumaDeDescuentostot= sum(PriceBefDi * (DiscPrcnt/100))
+	from INV1  
+	where DocEntry =@DOCENTRY;
+	
+IF @TIPODOC ='NC'
+	select @DescuentoDocumento= CASE WHEN DocCur='QTZ' THEN DiscSum ELSE DiscSumSy END, @PorcenDescDocumento=DiscPrcnt
+	from ORIN 
+	where DocEntry =@DOCENTRY;
+ELSE
+	select @DescuentoDocumento= CASE WHEN DocCur='QTZ' THEN DiscSum ELSE DiscSumSy END, @PorcenDescDocumento=DiscPrcnt
+	from OINV  
+	where DocEntry =@DOCENTRY;
+
+declare @neto as varchar(max)
+declare @ivalinea as varchar(max)
+set @neto = convert(decimal(18,2),( @total /1.12))
+set @ivalinea = convert(decimal(18,2),((convert(decimal(18,2),@neto))*0.12))
+SET @HEADER=@HEADER+'<VALORNETO>'+@neto+'</VALORNETO>'
+SET @HEADER=@HEADER+'<IVA>'+@ivalinea+'</IVA>'
+SET @HEADER=@HEADER+'<TOTAL>'+CONVERT(VARCHAR,@TOTAL)+'</TOTAL>'
+SET @HEADER=@HEADER+'<DESCUENTO>'+convert(varchar,@DescuentoDocumento)+'</DESCUENTO>'
+SET @HEADER=@HEADER+'<EXENTO>0.00</EXENTO>'
+
+--SET @HEADER=@HEADER+'<Bruto>'+convert(varchar,@SubTotalSinDR)+'</Bruto>'
+
+
+--SET @HEADER=@HEADER+'<Otros>0.00</Otros>'
+
+--SET @HEADER=@HEADER+'<Isr>0.00</Isr>'
+
+------
+--SET @HEADER=@HEADER+'</Totales>'
+--SET @HEADER=@HEADER+'<DatosAdicionales/>'
+SET @HEADER=@HEADER+'</ENCABEZADO>'
+------------------------------------------------------TERMINA-ENCABEZADO-------------------------------------------------
+
+
+
+
+
+FETCH NEXT FROM @MyCursorDET 
+INTO
+@Descripcion,
+@CodigoEAN,
+@Cantidad,
+@ValorSinDR_Precio,
+@ValorSinDR_Monto,
+@SumaDeDescuentos,
+@Operacion,
+@Servicio,
+@DescuentoORecargo_Base,
+@DescuentoORecargo_Tasa,  
+@DescuentoORecargo_Monto,
+@ValorConDR_Precio,
+@ValorConDR_Monto,
+@TotalDeImpuestos,
+@IngresosNetosGravados,
+@TotalDeIVA,
+@Impuesto_Tipo,
+@Impuesto_Base,
+@Impuesto_Tasa,
+@Impuesto_Monto,
+@Categoria,
+@Texto;
+
+SET @DETAIL='<DETALLE>'
+set @FOOTERDETAIL=''
+DECLARE @TEXTO_LARGO VARCHAR(MAX)
+DECLARE @VALOR money
+
+WHILE @@FETCH_STATUS = 0
+	BEGIN;
+				
+		SET @DETAIL=@DETAIL+'<LINEA>'
+
+		SET @VALOR = cast(@Cantidad as money)*cast(@ValorSinDR_Precio as money)
+
+		SET @DETAIL=@DETAIL+'<CANTIDAD>'+@Cantidad+'</CANTIDAD>'
+		SET @DETAIL=@DETAIL+'<DESCRIPCION>descripcion</DESCRIPCION>'
+		SET @DETAIL=@DETAIL+'<METRICA>UNI</METRICA>'
+		SET @DETAIL=@DETAIL+'<PRECIOUNITARIO>'+@ValorSinDR_Precio+'</PRECIOUNITARIO>'
+
+		SET @DETAIL=@DETAIL+'<VALOR>'+cast(@VALOR as varchar)+'</VALOR>'	
+		SET @DETAIL=@DETAIL+'<TIPO_PRODUCTO>BIEN</TIPO_PRODUCTO>'		
+		SET @DETAIL=@DETAIL+'<EXENTO>N</EXENTO>'	
+			
+		--SET @DETAIL=@DETAIL+'<Producto>'+@CodigoEAN+'</Producto>'
+
+
+
+		--SET @DETAIL=@DETAIL+'<PorcDesc>0.00</PorcDesc>'
+		--SET @DETAIL=@DETAIL+'<ImpBruto>'+@ValorSinDR_Monto+'</ImpBruto>'
+		--SET @DETAIL=@DETAIL+'<ImpDescuento>0.00</ImpDescuento>'
+		--SET @DETAIL=@DETAIL+'<ImpExento>0.00</ImpExento>'
+		--SET @DETAIL=@DETAIL+'<ImpOtros>0.00</ImpOtros>'
+		--SET @DETAIL=@DETAIL+'<ImpNeto>0.00</ImpNeto>'
+		--SET @DETAIL=@DETAIL+'<ImpIsr>0.00</ImpIsr>'
+		--SET @DETAIL=@DETAIL+'<ImpIva>0.00</ImpIva>'
+		--SET @DETAIL=@DETAIL+'<ImpTotal>0.00</ImpTotal>'
+		--SET @DETAIL=@DETAIL+'<DatosAdicionalesProd/>'
+
+		SET @DETAIL=@DETAIL+'</LINEA>'
+
+		IF @Impuesto_Tipo='IVA'
+			set @TotalImpuesto=@TotalImpuesto+convert(decimal(18,5),@Impuesto_Monto)
+			
+		FETCH NEXT FROM @MyCursorDET INTO
+		@Descripcion,
+		@CodigoEAN,
+		@Cantidad,
+		@ValorSinDR_Precio,
+		@ValorSinDR_Monto,
+		@SumaDeDescuentos,
+		@Operacion,
+		@Servicio,
+		@DescuentoORecargo_Base,
+		@DescuentoORecargo_Tasa,  
+		@DescuentoORecargo_Monto,
+		@ValorConDR_Precio,
+		@ValorConDR_Monto,
+		@TotalDeImpuestos,
+		@IngresosNetosGravados,
+		@TotalDeIVA,
+		@Impuesto_Tipo,
+		@Impuesto_Base,
+		@Impuesto_Tasa,
+		@Impuesto_Monto,
+		@Categoria,
+		@Texto;
+	END
+SET @DETAIL=@DETAIL+'</DETALLE>'
+CLOSE @MyCursorDET;
+DEALLOCATE @MyCursorDET; 
+
+
+SET @RESULT=@AROOT+@ROOT+@HEADER+@DETAIL+@ENDROOT
+
+SELECT  @RESULT XML_GENERADO
+
+--DEBUG
+--SELECT @RESULT XML_GENERADO, @ROOT ROOT ,@HEADER HEADER ,@DETAIL DETAIL ,@FOOTER FOOTER,@ENDROOT ENDROOT
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+
+
+ALTER  PROCEDURE [dbo].[SP_ITFACE_ENCABEZADO] @Docentry int,@Tipo char(3),@CursorENC CURSOR VARYING OUTPUT
+AS
+
+
+	IF @Tipo='FAC' OR @Tipo='ND'
+	BEGIN
+		PRINT 'ENTRA AL PRIMER IF ENC'
+		SET @CursorENC = CURSOR
+		FORWARD_ONLY STATIC FOR 
+			Select '2' 'Version',
+				CASE OINV.SERIES WHEN 4 THEN OINV.DocNum ELSE DBO.CORRIGEDOC_NUM(OINV.DocNum) END NOFACTURA,
+				isnull([@FACE_RESOLUCION].U_RESOLUCION,'N/D') RESOLUCION,
+				isnull([@FACE_RESOLUCION].U_AUTORIZACION,'N/D') IDSERIE,
+				isnull([@FACE_RESOLUCION].U_NOMBRE_SUCURSAL,'N/D') EMPRESA,
+				isnull([@FACE_RESOLUCION].U_SUCURSAL,'N/D') SUCURSAL,
+				isnull([@FACE_RESOLUCION].U_DISPOSITIVO,'N/D') CAJA,
+				isnull([@FACE_RESOLUCION].U_USUARIO,'N/D') USUARIO,
+				CASE OINV.DOCCUR WHEN 'QTZ' THEN 'GTQ' ELSE 'USD' END MONEDA,
+				isnull(oinv.DocRate,0) TASACAMBIO,
+				'O' GENERACION,
+				replace(CONVERT(varchar,OINV.DocDate,111),'/','-') FECHAEMISION,
+				isnull(ocrd.CardFName,'Consumidor Final')  NOMBRECONTRIBUYENTE,
+				ISNULL(OINV.[Address], 'CIUDAD') DIRECCIONCONTRIBUYENTE,
+				replace(isnull(ocrd.AddID,'0000000000CF'),'-','') NITCONTRIBUYENTE,
+				CASE DOCCUR WHEN 'QTZ' THEN oinv.doctotal ELSE OINV.DOCTOTALSY END TOTAL
+			from OINV 
+				left outer join [@FACE_RESOLUCION]
+				on [@FACE_RESOLUCION].U_SERIE=OINV.series
+				left outer join  OCRD 
+				on ocrd.CardCode =oinv.CardCode
+				INNER JOIN NNM1 on oinv.Series =NNM1.Series 
+				LEFT OUTER JOIN CRD1
+				ON OCRD.CARDCODE=CRD1.CARDCODE
+			where OINV.DocEntry =@Docentry
+    END
+	IF @Tipo='NC'
+		SET @CursorENC = CURSOR
+		FORWARD_ONLY STATIC FOR 
+			Select '2' 'Version',
+				DBO.CORRIGEDOC_NUM(OINV.DocNum) NOFACTURA,
+				isnull([@FACE_RESOLUCION].U_RESOLUCION,'N/D') RESOLUCION,
+				isnull([@FACE_RESOLUCION].U_AUTORIZACION,'N/D') IDSERIE,
+				isnull([@FACE_RESOLUCION].U_NOMBRE_SUCURSAL,'N/D') EMPRESA,
+				isnull([@FACE_RESOLUCION].U_SUCURSAL,'N/D') SUCURSAL,
+				isnull([@FACE_RESOLUCION].U_DISPOSITIVO,'N/D') CAJA,
+				isnull([@FACE_RESOLUCION].U_USUARIO,'N/D') USUARIO,
+				CASE OINV.DOCCUR WHEN 'QTZ' THEN 'GTQ' ELSE 'USD' END MONEDA,
+				isnull(oinv.DocRate,0) TASACAMBIO,
+				'O' GENERACION,
+				CONVERT(VARCHAR,OINV.DocDate,126) FECHAEMISION,
+				isnull(ocrd.CardFName,'Consumidor Final')  NOMBRECONTRIBUYENTE,
+				ISNULL(OINV.[Address], 'CIUDAD') DIRECCIONCONTRIBUYENTE,
+				replace(isnull(ocrd.AddID,'0000000000CF'),'-','') NITCONTRIBUYENTE,
+				CASE DOCCUR WHEN 'QTZ' THEN oinv.doctotal ELSE OINV.DOCTOTALSY END TOTAL
+			from ORIN OINV 
+				left outer join [@FACE_RESOLUCION]
+				on [@FACE_RESOLUCION].U_SERIE=OINV.series
+				left outer join  OCRD 
+				on ocrd.CardCode =oinv.CardCode
+				INNER JOIN NNM1 on oinv.Series =NNM1.Series 
+				LEFT OUTER JOIN CRD1
+				ON OCRD.CARDCODE=CRD1.CARDCODE
+			where OINV.DocEntry =@Docentry
+		
+OPEN @CursorENC;
+
+
+-----------------------------------------------------------------------------------------------
+
+
+
+
+
+ALTER PROCEDURE [dbo].[SP_ITFACE_DETALLE]
+	@Docentry int,
+	@Tipo char(3),
+	@CursorDET CURSOR VARYING OUTPUT
+AS
+IF @Tipo='FAC' OR @TIPO='ND'
+BEGIN
+	PRINT 'ENTRA AL PRIMER IF'
+	SET @CursorDET = CURSOR
+	FORWARD_ONLY STATIC FOR
+	SELECT 
+		B.ItemName Descripcion,
+		B.ItemCode CodigoEAN,
+		cast(ISNULL(A.Quantity,0)as decimal(10,2)) Quantity,
+	cast(A.PriceBefDi as decimal(10,2)) ValorSinDR_Precio,
+
+		--TEMA A REVISAR SIN DR (ValorSinDR_Monto)
+		cast(ISNULL(A.Quantity, 1)*A.PriceBefDi as decimal(10,2)) ValorSinDR_Monto,
+		
+		CASE WHEN A.DiscPrcnt < 0 THEN 0 ELSE A.PriceBefDi-A.PRICE END SumaDeDescuentos,
+		'DESCUENTO' Operacion,
+		'ALLOWANCE_GLOBAL' Servicio,
+		A.PriceBefDi DescuentoORecargo_Base,
+		CASE WHEN A.DiscPrcnt < 0 THEN 0 ELSE  A.DiscPrcnt END DescuentoORecargo_Tasa,
+		CASE WHEN A.DiscPrcnt < 0 THEN 0 ELSE A.PriceBefDi-A.Price END DescuentoORecargo_Monto,
+		A.Price ValorConDR_Precio,
+
+		--TEMA A REVISAR CON DR (ValorConDR_Monto)
+		
+		
+		--CASE C.DOCCUR WHEN 'USD' THEN CONVERT(DECIMAL(12,6),(A.LineTotal/(C.DocRate))) ELSE A.LineTotal END ValorConDR_Monto,
+		
+		ISNULL(A.Quantity, 1)*A.PriceBefDi ValorConDR_Monto,
+
+		CASE C.DOCCUR WHEN 'USD' THEN A.VatSumSy ELSE A.VatSum END  TotalDeImpuestos,
+		CASE C.DOCCUR WHEN 'USD' THEN CONVERT(DECIMAL(12,6),(A.LineTotal/(C.DocRate))) ELSE A.LineTotal END IngresosNetosGravados,
+		CASE C.DOCCUR WHEN 'USD' THEN A.VatSumSy ELSE A.VatSum END  TotalDeIVA,
+		'IVA' AS Impuesto_Tipo,
+		CASE C.DOCCUR WHEN 'USD' THEN CONVERT(DECIMAL(12,6),(A.LineTotal/(C.DocRate))) ELSE A.LineTotal END  Impuesto_Base,
+		--C.VatPercent Impuesto_Tasa,
+		12 Impuesto_Tasa,
+		CASE C.DOCCUR WHEN 'USD' THEN A.VatSumSy ELSE A.VatSum END Impuesto_Monto,
+		CASE C.DocType WHEN 'I' THEN 'BIEN' ELSE 'SERVICIO' END AS Categoria,
+		isnull(D.LineText,'N/A') TEXTO 
+	FROM INV1 A
+	INNER JOIN OITM B
+	ON A.ITEMCODE = B.ItemCode 
+	and A.ITEMCODE NOT IN ('1000') 
+	INNER JOIN OINV C
+	ON A.DocEntry=C.DocEntry 
+	LEFT OUTER JOIN INV10 D
+	ON A.DocEntry =D.DocEntry 
+	WHERE A.DocEntry = @Docentry
+END
+ELSE
+BEGIN
+   PRINT 'ENTRA AL PRIMER IF'
+	SET @CursorDET = CURSOR
+	FORWARD_ONLY STATIC FOR
+SELECT 
+		B.ItemName Descripcion,
+		DBO.CODIGO_EAN(B.ItemCode) CodigoEAN,
+		ISNULL(A.Quantity,0) Quantity,
+		A.PriceBefDi ValorSinDR_Precio,
+		ISNULL(A.Quantity, 1)*A.PriceBefDi ValorSinDR_Monto,
+		CASE WHEN A.DiscPrcnt < 0 THEN 0 ELSE A.PriceBefDi-A.PRICE END SumaDeDescuentos,
+		'DESCUENTO' Operacion,
+		'ALLOWANCE_GLOBAL' Servicio,	
+		A.PriceBefDi DescuentoORecargo_Base,
+		CASE WHEN A.DiscPrcnt < 0 THEN 0 ELSE  A.DiscPrcnt END DescuentoORecargo_Tasa,
+		CASE WHEN A.DiscPrcnt < 0 THEN 0 ELSE A.PriceBefDi-A.Price END DescuentoORecargo_Monto,
+		A.Price ValorConDR_Precio,
+		CASE C.DOCCUR WHEN 'USD' THEN CONVERT(DECIMAL(12,6),(A.LineTotal/(C.DocRate))) ELSE A.LineTotal END ValorConDR_Monto,
+		CASE C.DOCCUR WHEN 'USD' THEN A.VatSumSy ELSE A.VatSum END  TotalDeImpuestos,
+		CASE C.DOCCUR WHEN 'USD' THEN CONVERT(DECIMAL(12,6),(A.LineTotal/(C.DocRate))) ELSE A.LineTotal END IngresosNetosGravados,
+		CASE C.DOCCUR WHEN 'USD' THEN A.VatSumSy ELSE A.VatSum END  TotalDeIVA,
+		'IVA' AS Impuesto_Tipo,
+		CASE C.DOCCUR WHEN 'USD' THEN CONVERT(DECIMAL(12,6),(A.LineTotal/(C.DocRate))) ELSE A.LineTotal END  Impuesto_Base,
+		--C.VatPercent Impuesto_Tasa,
+		12 Impuesto_Tasa,
+		CASE C.DOCCUR WHEN 'USD' THEN A.VatSumSy ELSE A.VatSum END Impuesto_Monto,
+		CASE C.DocType WHEN 'I' THEN 'BIEN' ELSE 'SERVICIO' END AS Categoria,
+		isnull(D.LineText,'N/A') TEXTO 
+	FROM RIN1 A
+	INNER JOIN OITM B
+	ON A.ITEMCODE = B.ItemCode 
+	and A.ITEMCODE NOT IN ('1000') 
+	INNER JOIN ORIN C
+	ON A.DocEntry=C.DocEntry 
+	LEFT OUTER JOIN INV10 D
+	ON A.DocEntry =D.DocEntry 
+	WHERE A.DocEntry  =  @Docentry
+END
+OPEN @CursorDET;
+
+               
+
+
+			   
+			   
+----------------------------------------------------------------------------------------------
+
+
+ALTER procedure [dbo].[SP_INT_LISTADOBATCH] @Serie int,@FechaIni  varchar(10),@FechaFin  varchar(10)
+AS
+if @Serie <> 0 
+	select Estado=case isnull(a.U_ESTADO_FACE,'P') when 'P' then 'Pendiente' when 'R' then 'Rechazado' when 'A' then 'Autorizado' end ,
+	a.docentry 'Correlativo',
+	'Tipo Documento'= case a.DocSubType when '--' then 'Factura' when 'DN' then 'Nota Debito' End ,
+	b.SeriesName 'Serie', 
+	DocNum 'No. Documento',convert(char(10),DocDate,103)  'Fecha Documento' ,CardName  'Cliente',
+	convert(numeric(18,2),DocTotal,1)  'Total Documento', case dbo.ufn_EstadoDocumento(a.docentry) when 'A' then 'Anulado' else 'Vigente' end 'Estado del Documento' 
+	from oinv a 
+	inner join NNM1 b 
+	on a.Series = b.Series 
+	where isnull(U_ESTADO_FACE,'P') in ('P','R')  
+	and a.docdate between @FechaIni and  @FechaFin
+	and   b.Series = @Serie 
+	union 
+	select Estado=case isnull(a.U_ESTADO_FACE,'P') when 'P' then 'Pendiente' when 'R' then 'Rechazado' when 'A' then 'Autorizado' end ,
+	a.docentry 'Correlativo','Nota Credito' 'Tipo Documento',	b.SeriesName 'Serie',  DocNum 'No. Documento',convert(char(10),DocDate,103)  'Fecha Documento' ,
+	CardName  'Cliente',convert(numeric(18,2),DocTotal,1)  'Total Documento', case dbo.ufn_EstadoDocumentoNC(a.docentry) when 'A' then 'Anulado' else 'Vigente' end 'Estado del Documento'   
+	from ORIN  a 
+	inner join NNM1 b 
+	on a.Series = b.Series  
+	where isnull(U_ESTADO_FACE,'P') in ('P','R')  
+	and a.docdate between @FechaIni and  @FechaFin
+	and   b.Series = @Serie 
+	order by b.SeriesName, Correlativo 
+else
+	select Estado=case isnull(a.U_ESTADO_FACE,'P') when 'P' then 'Pendiente' when 'R' then 'Rechazado' when 'A' then 'Autorizado' end ,
+	a.docentry 'Correlativo',
+	'Tipo Documento'= case a.DocSubType when '--' then 'Factura' when 'DN' then 'Nota Debito' End , 
+	b.SeriesName 'Serie', 
+	DocNum 'No. Documento',convert(char(10),DocDate,103)  'Fecha Documento' ,CardName  'Cliente',
+	convert(numeric(18,2),DocTotal,1)  'Total Documento', case dbo.ufn_EstadoDocumento(a.docentry) when 'A' then 'Anulado' else 'Vigente' end 'Estado del Documento' 
+	from oinv a 
+	inner join NNM1 b 
+	on a.Series = b.Series 
+	where isnull(U_ESTADO_FACE,'P') in ('P','R')  
+	and a.docdate between @FechaIni and  @FechaFin
+	and   b.Series in (select U_SERIE from [@FACE_RESOLUCION] where U_ES_BATCH='Y')
+	union 
+	select Estado=case isnull(a.U_ESTADO_FACE,'P') when 'P' then 'Pendiente' when 'R' then 'Rechazado' when 'A' then 'Autorizado' end ,
+	a.docentry 'Correlativo','Nota Credito' 'Tipo Documento',	b.SeriesName 'Serie',  DocNum 'No. Documento',convert(char(10),DocDate,103)  'Fecha Documento' ,
+	CardName  'Cliente',convert(numeric(18,2),DocTotal,1)  'Total Documento', case dbo.ufn_EstadoDocumentoNC(a.docentry) when 'A' then 'Anulado' else 'Vigente' end 'Estado del Documento'   
+	from ORIN  a 
+	inner join NNM1 b 
+	on a.Series = b.Series  
+	where isnull(U_ESTADO_FACE,'P') in ('P','R')  
+	and a.docdate between @FechaIni and  @FechaFin
+	and   b.Series in (select U_SERIE from [@FACE_RESOLUCION] where U_ES_BATCH='Y')
+	order by b.SeriesName, Correlativo
+			   

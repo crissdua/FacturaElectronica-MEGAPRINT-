@@ -1,0 +1,2 @@
+Cannot find table 0.
+2) Documento:  0 Estado: Rechazado Motivo:Error al obtener datos del archivo XML [There is an error in XML document (1, 782).]  
